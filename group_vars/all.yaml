@@ -2,8 +2,8 @@ MONGODB_HOST: mongodb-{{ env }}.maxdevopstech.online
 REDIS_HOST: redis-{{ env }}.maxdevopstech.online
 MYSQL_HOST: mysql-{{ env }}.maxdevopstech.online
 RABBITMQ_HOST: rabbitmq-{{ env }}.maxdevopstech.online
-CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.maxdevopstech.online
-USER_HOST: user.backend-alb-{{ env }}.maxdevopstech.online
-CART_HOST: cart.backend-alb-{{ env }}.maxdevopstech.online
-SHIPPING_HOST: shipping.backend-alb-{{ env }}.maxdevopstech.online
-PAYMENT_HOST: payment.backend-alb-{{ env }}.maxdevopstech.online
+CATALOGUE_HOST: catalogue.backend_alb-{{ env }}.maxdevopstech.online
+USER_HOST: user.backend_alb-{{ env }}.maxdevopstech.online
+CART_HOST: cart.backend_alb-{{ env }}.maxdevopstech.online
+SHIPPING_HOST: shipping.backend_alb-{{ env }}.maxdevopstech.online
+PAYMENT_HOST: payment.backend_alb-{{ env }}.maxdevopstech.online
